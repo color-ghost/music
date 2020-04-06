@@ -142,14 +142,17 @@ input:checked + label {
   position: absolute;
   bottom: 0;
   right: 8%;
+  cursor: default;
 }
-.logo {
+.logo-link {
   margin-left: 12px;
+}
+.logo-icon {
   font-size: 30px;
   color: rgba(255, 255, 255, 0.2);
   transition: color .3s;
 }
-.logo:hover {
+.logo-icon:hover {
   color: rgba(255, 255, 255, 0.4);
 }
 @media (max-width: 1000px) {
@@ -189,7 +192,7 @@ input:checked + label {
     margin-bottom: 15px;
     margin-right: 5%;
   }
-  .logo:hover {
+  .logo-icon:hover {
     color: rgba(255, 255, 255, 0.2);
   }
 }
