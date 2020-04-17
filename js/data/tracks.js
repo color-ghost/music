@@ -1,4 +1,11 @@
 export const trackList = [
+    {
+    url: 'https://www.douglaskdlc.com/the-human-soul.wav',
+    art: 'images/night-sky2.png',
+    time: '46:39',
+    title: 'The Human Soul',
+    artist: 'color ghost',
+  },
   {
     url: 'https://www.douglaskdlc.com/one-in-a-million-we-are-twice.wav',
     art: 'images/twice.png',
