@@ -1,7 +1,7 @@
 export const trackList = [
     {
     url: 'https://www.douglaskdlc.com/the-human-soul.wav',
-    art: 'images/night-sky2.png',
+    art: 'images/night-sky2.jpg',
     time: '46:39',
     title: 'The Human Soul',
     artist: 'color ghost',
