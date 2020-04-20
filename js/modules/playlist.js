@@ -51,11 +51,7 @@ const Playlist = (_ => {
   }
 
   const playNext = _ => {
-    const loopEl = document.querySelector('input[name="loop"]:checked');
-    if (loopEl) {
-      currentTrack.currentTime = 0;
-      togglePlayPause();
-    } else if (tracks[currentIndex + 1]) {
+    if (tracks[currentIndex + 1]) {
       currentIndex++;
       changeAudioSrc();
       togglePlayPause();
