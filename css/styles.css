@@ -177,6 +177,9 @@ body {
     margin-left: 0px;
     border-radius: 0px;
   }
+  .player__body {
+    margin-top: 5vw;
+  }
   .player__img {
     width: 90%;
   }
