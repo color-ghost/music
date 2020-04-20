@@ -66,42 +66,17 @@ body {
   margin-top: 25px;
   color: rgb(170, 170, 170);
 }
-.trigger-container {
-  margin-top: 30px;
-}
 .player__trigger {
-  float: left;
   width: 100px;
   padding-top: 20px;
   padding-bottom: 20px;
   border-radius: 5px;
+  margin-top: 30px;
   background: rgba(255, 255, 255, 0.2);
   color: rgb(230, 230, 230);
   text-align: center;
   font-size: 14px;
   cursor: pointer;
-}
-.player__loop {
-  display: inline-block;
-  width: 100px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-radius: 5px;
-  margin-left: 15px;
-  background: rgba(255, 255, 255, 0.2);
-  color: rgb(230, 230, 230);
-  text-align: center;
-  font-size: 14px;
-  line-height: 0px;
-  cursor: pointer;
-}
-input {
-  display: none;
-}
-input:checked + label {
-  padding-top: 18px;
-  padding-bottom: 18px;
-  border: 2px solid rgba(255, 255, 255, 0.2);
 }
 .playlist__body {
   float: right;
