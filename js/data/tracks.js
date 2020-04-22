@@ -8,14 +8,14 @@ export const trackList = [
   },
   {
     url: 'https://douglaskdlc.com/one-in-a-million-we-are-twice.wav',
-    art: 'images/twice.png',
+    art: 'images/twice2.jpg',
     time: '1:07:49',
     title: 'One In A Million We Are TWICE',
     artist: 'color ghost',
   },
   {
     url: 'https://douglaskdlc.com/magic-of-the-mind.wav',
-    art: 'images/fiji.png',
+    art: 'images/fiji2.jpg',
     time: '37:39',
     title: 'Magic of the Mind',
     artist: 'color ghost',
