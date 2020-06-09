@@ -1,5 +1,12 @@
 export const trackList = [
-    {
+  {
+    url: 'https://douglaskdlc.com/touch-me.wav',
+    art: 'images/vinyl2.jpg',
+    time: '39:49',
+    title: 'Touch Me',
+    artist: 'color ghost',
+  },
+  {
     url: 'https://douglaskdlc.com/the-human-soul.wav',
     art: 'images/night-sky2.jpg',
     time: '46:39',
