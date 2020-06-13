@@ -97,10 +97,10 @@ const Playlist = (_ => {
 
     tracks.forEach((trackObj, index) => {
       markup += `
-        <div class="playlist__track ${index === currentIndex ? 'playlist__track--active' : ''}">
+        <div class="playlist__track ${index === currentIndex ? 'active' : ''}">
           <span class="fa ${toggleIcon(index)}"></span>
-          <span class="playlist__track-name">${trackObj.title}</span>
-          <span class="playlist__track-duration">${trackObj.time}</span>
+          <span class="playlist__track-name ${index === currentIndex ? 'info-active' : ''}">${trackObj.title}</span>
+          <span class="playlist__track-duration ${index === currentIndex ? 'info-active' : ''}">${trackObj.time}</span>
         </div>
       `;
     })
