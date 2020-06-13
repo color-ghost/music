@@ -95,7 +95,6 @@ body {
 }
 .playlist__track:hover {
   background: rgba(0, 0, 0, 0.3);
-  color: rgba(255, 255, 255, 0.4);
 }
 .active {
   background: rgba(0, 0, 0, 0.3);
@@ -103,11 +102,11 @@ body {
 }
 .playlist__track-name {
   margin-left: 20px;
-  color: rgb(230, 230, 230);
+  color: rgba(255, 255, 255, 0.6);
 }
 .playlist__track-duration {
   margin-left: auto;
-  color: rgb(170, 170, 170);
+  color: rgba(255, 255, 255, 0.6);
 }
 .info-active {
   color: rgb(230, 230, 230);
