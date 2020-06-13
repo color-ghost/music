@@ -105,10 +105,6 @@ body {
   margin-left: 20px;
   color: rgb(230, 230, 230);
 }
-.playlist__track-artist {
-  margin-left: 10px;
-  color: rgb(170, 170, 170);
-}
 .playlist__track-duration {
   margin-left: auto;
   color: rgb(170, 170, 170);
@@ -194,9 +190,6 @@ body {
   }
   .playlist__track {
     border-radius: 0px;
-  }
-  .playlist__track-artist {
-    display: none;
   }
 }
 @media (max-width: 350px) {
