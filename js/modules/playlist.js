@@ -100,7 +100,6 @@ const Playlist = (_ => {
         <div class="playlist__track ${index === currentIndex ? 'playlist__track--active' : ''}">
           <span class="fa ${toggleIcon(index)}"></span>
           <span class="playlist__track-name">${trackObj.title}</span>
-          <span class="playlist__track-artist">${trackObj.artist}</span>
           <span class="playlist__track-duration">${trackObj.time}</span>
         </div>
       `;
