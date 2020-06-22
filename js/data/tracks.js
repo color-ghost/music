@@ -1,4 +1,11 @@
 export const trackList = [
+    {
+    url: 'https://douglaskdlc.com/hush.wav',
+    art: 'images/rose2.jpg',
+    time: '22:32',
+    title: 'Hush',
+    artist: 'color ghost',
+  },
   {
     url: 'https://douglaskdlc.com/touch-me.wav',
     art: 'images/vinyl2.jpg',
