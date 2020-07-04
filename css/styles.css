@@ -102,11 +102,11 @@ body {
 }
 .playlist__track-name {
   margin-left: 20px;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 .playlist__track-duration {
   margin-left: auto;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 .info-active {
   color: rgb(230, 230, 230);
