@@ -1,5 +1,12 @@
 export const trackList = [
-    {
+  {
+    url: 'https://douglaskdlc.com/journey-of-the-mind.wav',
+    art: 'images/jisoo2.jpg',
+    time: '32:12',
+    title: 'Journey of the Mind',
+    artist: 'color ghost',
+  },
+  {
     url: 'https://douglaskdlc.com/hush.wav',
     art: 'images/rose2.jpg',
     time: '22:32',
